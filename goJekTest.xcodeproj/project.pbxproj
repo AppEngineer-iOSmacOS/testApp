@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051ECC0D235B81B700E41767 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051ECC0C235B81B700E41767 /* ContactDetailViewController.swift */; };
+		0565AD45235B972800E37C15 /* ContactInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0565AD44235B972800E37C15 /* ContactInfoTableViewCell.swift */; };
+		0565AD49235B975D00E37C15 /* ContactDeleteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0565AD48235B975D00E37C15 /* ContactDeleteTableViewCell.swift */; };
+		0565AD4B235BA0C900E37C15 /* ContactDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0565AD4A235BA0C900E37C15 /* ContactDeviceTableViewCell.swift */; };
+		0565AD4D235BCB2400E37C15 /* NewContact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0565AD4C235BCB2400E37C15 /* NewContact.storyboard */; };
+		05979E1F2359A19E007C55C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E1E2359A19E007C55C3 /* AppDelegate.swift */; };
+		05979E262359A19E007C55C3 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05979E242359A19E007C55C3 /* Contact.storyboard */; };
+		05979E282359A19F007C55C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05979E272359A19F007C55C3 /* Assets.xcassets */; };
+		05979E2B2359A19F007C55C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05979E292359A19F007C55C3 /* LaunchScreen.storyboard */; };
+		05979E412359A19F007C55C3 /* goJekTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E402359A19F007C55C3 /* goJekTestUITests.swift */; };
+		05979E4F2359B550007C55C3 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E4E2359B550007C55C3 /* APIConstants.swift */; };
+		05979E512359B608007C55C3 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E502359B608007C55C3 /* Wrapper.swift */; };
+		05979E542359C4CD007C55C3 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E532359C4CD007C55C3 /* ContactViewController.swift */; };
+		05979E56235B1C4D007C55C3 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E55235B1C4D007C55C3 /* ContactTableViewCell.swift */; };
+		05979E59235B2F6A007C55C3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E58235B2F6A007C55C3 /* Models.swift */; };
+		05979E5B235B467D007C55C3 /* Reqest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E5A235B467D007C55C3 /* Reqest.swift */; };
+		05979E5D235B4819007C55C3 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E5C235B4819007C55C3 /* Help.swift */; };
+		05979E5F235B57C9007C55C3 /* RealmModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E5E235B57C9007C55C3 /* RealmModels.swift */; };
+		05979E61235B802A007C55C3 /* ContactDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05979E60235B802A007C55C3 /* ContactDetail.storyboard */; };
+		05DA8250235C5246001F1709 /* NewInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA824F235C5246001F1709 /* NewInfoTableViewCell.swift */; };
+		05DA8252235CBBF2001F1709 /* NewDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA8251235CBBF2001F1709 /* NewDeviceTableViewCell.swift */; };
+		05DA8253235CD2C0001F1709 /* goJekTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05979E352359A19F007C55C3 /* goJekTestTests.swift */; };
+		05EE3FE7235C304D003EECDB /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE3FE6235C304D003EECDB /* NewContactViewController.swift */; };
+		114B9B72517B68767017B387 /* Pods_goJekTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8D6E9B4FB5FDFCEDC2775C /* Pods_goJekTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05979E322359A19F007C55C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05979E132359A19E007C55C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05979E1A2359A19E007C55C3;
+			remoteInfo = goJekTest;
+		};
+		05979E3D2359A19F007C55C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05979E132359A19E007C55C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05979E1A2359A19E007C55C3;
+			remoteInfo = goJekTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051ECC0C235B81B700E41767 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		0565AD44235B972800E37C15 /* ContactInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoTableViewCell.swift; sourceTree = "<group>"; };
+		0565AD48235B975D00E37C15 /* ContactDeleteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDeleteTableViewCell.swift; sourceTree = "<group>"; };
+		0565AD4A235BA0C900E37C15 /* ContactDeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDeviceTableViewCell.swift; sourceTree = "<group>"; };
+		0565AD4C235BCB2400E37C15 /* NewContact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewContact.storyboard; sourceTree = "<group>"; };
+		05979E1B2359A19E007C55C3 /* Contacts App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contacts App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05979E1E2359A19E007C55C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05979E252359A19E007C55C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contact.storyboard; sourceTree = "<group>"; };
+		05979E272359A19F007C55C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05979E2A2359A19F007C55C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05979E2C2359A19F007C55C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05979E312359A19F007C55C3 /* goJekTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goJekTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05979E352359A19F007C55C3 /* goJekTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goJekTestTests.swift; sourceTree = "<group>"; };
+		05979E372359A19F007C55C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05979E3C2359A19F007C55C3 /* goJekTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goJekTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05979E402359A19F007C55C3 /* goJekTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goJekTestUITests.swift; sourceTree = "<group>"; };
+		05979E422359A19F007C55C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05979E4E2359B550007C55C3 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		05979E502359B608007C55C3 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		05979E532359C4CD007C55C3 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		05979E55235B1C4D007C55C3 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		05979E58235B2F6A007C55C3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		05979E5A235B467D007C55C3 /* Reqest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reqest.swift; sourceTree = "<group>"; };
+		05979E5C235B4819007C55C3 /* Help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		05979E5E235B57C9007C55C3 /* RealmModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModels.swift; sourceTree = "<group>"; };
+		05979E60235B802A007C55C3 /* ContactDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactDetail.storyboard; sourceTree = "<group>"; };
+		05DA824F235C5246001F1709 /* NewInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInfoTableViewCell.swift; sourceTree = "<group>"; };
+		05DA8251235CBBF2001F1709 /* NewDeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeviceTableViewCell.swift; sourceTree = "<group>"; };
+		05EE3FE6235C304D003EECDB /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
+		2A8D6E9B4FB5FDFCEDC2775C /* Pods_goJekTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_goJekTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F074156937739BD4000702 /* Pods-goJekTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goJekTest.debug.xcconfig"; path = "Target Support Files/Pods-goJekTest/Pods-goJekTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D6574429C9E5A7D737F3297D /* Pods-goJekTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goJekTest.release.xcconfig"; path = "Target Support Files/Pods-goJekTest/Pods-goJekTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05979E182359A19E007C55C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114B9B72517B68767017B387 /* Pods_goJekTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05979E2E2359A19F007C55C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05979E392359A19F007C55C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051ECC0E235B8F0300E41767 /* ContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				05979E60235B802A007C55C3 /* ContactDetail.storyboard */,
+				051ECC0C235B81B700E41767 /* ContactDetailViewController.swift */,
+				0565AD44235B972800E37C15 /* ContactInfoTableViewCell.swift */,
+				0565AD48235B975D00E37C15 /* ContactDeleteTableViewCell.swift */,
+				0565AD4A235BA0C900E37C15 /* ContactDeviceTableViewCell.swift */,
+			);
+			path = ContactDetail;
+			sourceTree = "<group>";
+		};
+		05979E122359A19E007C55C3 = {
+			isa = PBXGroup;
+			children = (
+				05979E1D2359A19E007C55C3 /* goJekTest */,
+				05979E342359A19F007C55C3 /* goJekTestTests */,
+				05979E3F2359A19F007C55C3 /* goJekTestUITests */,
+				05979E1C2359A19E007C55C3 /* Products */,
+				35F1A38C2B600562B9DF8AAC /* Pods */,
+				585EF5E93AABCF1DBE3DAE46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05979E1C2359A19E007C55C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05979E1B2359A19E007C55C3 /* Contacts App.app */,
+				05979E312359A19F007C55C3 /* goJekTestTests.xctest */,
+				05979E3C2359A19F007C55C3 /* goJekTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05979E1D2359A19E007C55C3 /* goJekTest */ = {
+			isa = PBXGroup;
+			children = (
+				05979E1E2359A19E007C55C3 /* AppDelegate.swift */,
+				05979E58235B2F6A007C55C3 /* Models.swift */,
+				05979E5E235B57C9007C55C3 /* RealmModels.swift */,
+				05979E5C235B4819007C55C3 /* Help.swift */,
+				05979E522359C0C7007C55C3 /* Api */,
+				05979E57235B1C59007C55C3 /* Contact */,
+				051ECC0E235B8F0300E41767 /* ContactDetail */,
+				05EE3FE8235C3096003EECDB /* NewContact */,
+				05979E272359A19F007C55C3 /* Assets.xcassets */,
+				05979E292359A19F007C55C3 /* LaunchScreen.storyboard */,
+				05979E2C2359A19F007C55C3 /* Info.plist */,
+			);
+			path = goJekTest;
+			sourceTree = "<group>";
+		};
+		05979E342359A19F007C55C3 /* goJekTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				05979E352359A19F007C55C3 /* goJekTestTests.swift */,
+				05979E372359A19F007C55C3 /* Info.plist */,
+			);
+			path = goJekTestTests;
+			sourceTree = "<group>";
+		};
+		05979E3F2359A19F007C55C3 /* goJekTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05979E402359A19F007C55C3 /* goJekTestUITests.swift */,
+				05979E422359A19F007C55C3 /* Info.plist */,
+			);
+			path = goJekTestUITests;
+			sourceTree = "<group>";
+		};
+		05979E522359C0C7007C55C3 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				05979E4E2359B550007C55C3 /* APIConstants.swift */,
+				05979E502359B608007C55C3 /* Wrapper.swift */,
+				05979E5A235B467D007C55C3 /* Reqest.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		05979E57235B1C59007C55C3 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				05979E242359A19E007C55C3 /* Contact.storyboard */,
+				05979E532359C4CD007C55C3 /* ContactViewController.swift */,
+				05979E55235B1C4D007C55C3 /* ContactTableViewCell.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		05EE3FE8235C3096003EECDB /* NewContact */ = {
+			isa = PBXGroup;
+			children = (
+				0565AD4C235BCB2400E37C15 /* NewContact.storyboard */,
+				05EE3FE6235C304D003EECDB /* NewContactViewController.swift */,
+				05DA824F235C5246001F1709 /* NewInfoTableViewCell.swift */,
+				05DA8251235CBBF2001F1709 /* NewDeviceTableViewCell.swift */,
+			);
+			path = NewContact;
+			sourceTree = "<group>";
+		};
+		35F1A38C2B600562B9DF8AAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2F074156937739BD4000702 /* Pods-goJekTest.debug.xcconfig */,
+				D6574429C9E5A7D737F3297D /* Pods-goJekTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		585EF5E93AABCF1DBE3DAE46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A8D6E9B4FB5FDFCEDC2775C /* Pods_goJekTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05979E1A2359A19E007C55C3 /* goJekTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05979E452359A19F007C55C3 /* Build configuration list for PBXNativeTarget "goJekTest" */;
+			buildPhases = (
+				3B9172634BAA48BD192A4A2B /* [CP] Check Pods Manifest.lock */,
+				05979E172359A19E007C55C3 /* Sources */,
+				05979E182359A19E007C55C3 /* Frameworks */,
+				05979E192359A19E007C55C3 /* Resources */,
+				E92DC232E4C1F31211221BB6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goJekTest;
+			productName = goJekTest;
+			productReference = 05979E1B2359A19E007C55C3 /* Contacts App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05979E302359A19F007C55C3 /* goJekTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05979E482359A19F007C55C3 /* Build configuration list for PBXNativeTarget "goJekTestTests" */;
+			buildPhases = (
+				05979E2D2359A19F007C55C3 /* Sources */,
+				05979E2E2359A19F007C55C3 /* Frameworks */,
+				05979E2F2359A19F007C55C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05979E332359A19F007C55C3 /* PBXTargetDependency */,
+			);
+			name = goJekTestTests;
+			productName = goJekTestTests;
+			productReference = 05979E312359A19F007C55C3 /* goJekTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05979E3B2359A19F007C55C3 /* goJekTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05979E4B2359A19F007C55C3 /* Build configuration list for PBXNativeTarget "goJekTestUITests" */;
+			buildPhases = (
+				05979E382359A19F007C55C3 /* Sources */,
+				05979E392359A19F007C55C3 /* Frameworks */,
+				05979E3A2359A19F007C55C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05979E3E2359A19F007C55C3 /* PBXTargetDependency */,
+			);
+			name = goJekTestUITests;
+			productName = goJekTestUITests;
+			productReference = 05979E3C2359A19F007C55C3 /* goJekTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05979E132359A19E007C55C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Nikolay S";
+				TargetAttributes = {
+					05979E1A2359A19E007C55C3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					05979E302359A19F007C55C3 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 05979E1A2359A19E007C55C3;
+					};
+					05979E3B2359A19F007C55C3 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 05979E1A2359A19E007C55C3;
+					};
+				};
+			};
+			buildConfigurationList = 05979E162359A19E007C55C3 /* Build configuration list for PBXProject "goJekTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05979E122359A19E007C55C3;
+			productRefGroup = 05979E1C2359A19E007C55C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05979E1A2359A19E007C55C3 /* goJekTest */,
+				05979E302359A19F007C55C3 /* goJekTestTests */,
+				05979E3B2359A19F007C55C3 /* goJekTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05979E192359A19E007C55C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05979E2B2359A19F007C55C3 /* LaunchScreen.storyboard in Resources */,
+				05979E282359A19F007C55C3 /* Assets.xcassets in Resources */,
+				05979E61235B802A007C55C3 /* ContactDetail.storyboard in Resources */,
+				0565AD4D235BCB2400E37C15 /* NewContact.storyboard in Resources */,
+				05979E262359A19E007C55C3 /* Contact.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05979E2F2359A19F007C55C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05979E3A2359A19F007C55C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B9172634BAA48BD192A4A2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-goJekTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E92DC232E4C1F31211221BB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-goJekTest/Pods-goJekTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-goJekTest/Pods-goJekTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-goJekTest/Pods-goJekTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05979E172359A19E007C55C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05979E56235B1C4D007C55C3 /* ContactTableViewCell.swift in Sources */,
+				05EE3FE7235C304D003EECDB /* NewContactViewController.swift in Sources */,
+				0565AD45235B972800E37C15 /* ContactInfoTableViewCell.swift in Sources */,
+				0565AD49235B975D00E37C15 /* ContactDeleteTableViewCell.swift in Sources */,
+				05DA8252235CBBF2001F1709 /* NewDeviceTableViewCell.swift in Sources */,
+				05979E5D235B4819007C55C3 /* Help.swift in Sources */,
+				05979E512359B608007C55C3 /* Wrapper.swift in Sources */,
+				05979E5B235B467D007C55C3 /* Reqest.swift in Sources */,
+				05979E542359C4CD007C55C3 /* ContactViewController.swift in Sources */,
+				05979E1F2359A19E007C55C3 /* AppDelegate.swift in Sources */,
+				051ECC0D235B81B700E41767 /* ContactDetailViewController.swift in Sources */,
+				05979E4F2359B550007C55C3 /* APIConstants.swift in Sources */,
+				05979E59235B2F6A007C55C3 /* Models.swift in Sources */,
+				0565AD4B235BA0C900E37C15 /* ContactDeviceTableViewCell.swift in Sources */,
+				05DA8250235C5246001F1709 /* NewInfoTableViewCell.swift in Sources */,
+				05979E5F235B57C9007C55C3 /* RealmModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05979E2D2359A19F007C55C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DA8253235CD2C0001F1709 /* goJekTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05979E382359A19F007C55C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05979E412359A19F007C55C3 /* goJekTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05979E332359A19F007C55C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05979E1A2359A19E007C55C3 /* goJekTest */;
+			targetProxy = 05979E322359A19F007C55C3 /* PBXContainerItemProxy */;
+		};
+		05979E3E2359A19F007C55C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05979E1A2359A19E007C55C3 /* goJekTest */;
+			targetProxy = 05979E3D2359A19F007C55C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05979E242359A19E007C55C3 /* Contact.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05979E252359A19E007C55C3 /* Base */,
+			);
+			name = Contact.storyboard;
+			sourceTree = "<group>";
+		};
+		05979E292359A19F007C55C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05979E2A2359A19F007C55C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05979E432359A19F007C55C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05979E442359A19F007C55C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05979E462359A19F007C55C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F074156937739BD4000702 /* Pods-goJekTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZ26RWP868;
+				INFOPLIST_FILE = goJekTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sozinov.test.goJekTest;
+				PRODUCT_NAME = "Contacts App";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		05979E472359A19F007C55C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6574429C9E5A7D737F3297D /* Pods-goJekTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZ26RWP868;
+				INFOPLIST_FILE = goJekTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sozinov.test.goJekTest;
+				PRODUCT_NAME = "Contacts App";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		05979E492359A19F007C55C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZ26RWP868;
+				INFOPLIST_FILE = goJekTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sozinov.test.goJekTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contacts App.app/Contacts App";
+			};
+			name = Debug;
+		};
+		05979E4A2359A19F007C55C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZ26RWP868;
+				INFOPLIST_FILE = goJekTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sozinov.test.goJekTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contacts App.app/Contacts App";
+			};
+			name = Release;
+		};
+		05979E4C2359A19F007C55C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZ26RWP868;
+				INFOPLIST_FILE = goJekTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sozinov.test.goJekTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = goJekTest;
+			};
+			name = Debug;
+		};
+		05979E4D2359A19F007C55C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZ26RWP868;
+				INFOPLIST_FILE = goJekTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sozinov.test.goJekTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = goJekTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05979E162359A19E007C55C3 /* Build configuration list for PBXProject "goJekTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05979E432359A19F007C55C3 /* Debug */,
+				05979E442359A19F007C55C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05979E452359A19F007C55C3 /* Build configuration list for PBXNativeTarget "goJekTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05979E462359A19F007C55C3 /* Debug */,
+				05979E472359A19F007C55C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05979E482359A19F007C55C3 /* Build configuration list for PBXNativeTarget "goJekTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05979E492359A19F007C55C3 /* Debug */,
+				05979E4A2359A19F007C55C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05979E4B2359A19F007C55C3 /* Build configuration list for PBXNativeTarget "goJekTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05979E4C2359A19F007C55C3 /* Debug */,
+				05979E4D2359A19F007C55C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05979E132359A19E007C55C3 /* Project object */;
+}
